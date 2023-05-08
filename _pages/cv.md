@@ -9,4 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-CV and RESUME files linked here.
+My resume and CV can both be downloaded as PDF files from this page. I'll be keeping these documents as up-to-date as possible.
+
+**Resume**: 
+
+[Download Here]({{site.baseurl}}{% link /files/resume.pdf %})
+
+**CV**: 
+
+[Download LaTex Version Here]({{site.baseurl}}{% link /files/cv_overleaf.pdf %})
+
+[Download Regular Version Here]({{site.baseurl}}{% link /files/cv_regular.pdf %})
