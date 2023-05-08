@@ -1,50 +1,29 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "About me"
+title: "About Me"
+excerpt: "Welcome! This is the landing page of the website where I introduce myself."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Hello, and welcome to my personal website! My name is Theodore Wu. I currently live in the beautiful city of Victoria, British Columbia in Canada and I am an incoming Software Development Engineer at Amazon.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## Background & Education
+I grew up in Victoria and enjoyed a calm, peaceful life in my formative years. I did well in high school and moved to Toronto after graduating to pursue an undergraduate degree in Engineering Science (EngSci) at the University of Toronto. In the big city, I was able to meet people from across Canada who have been of immense help in shaping my worldview and future ambitions. Within EngSci, I majored in Machine Intelligence, where I was able to hone both software and AI development skills that empower me to contribute meaningfully to data-driven projects. I have recently graduated and obtain my Bachelors of Applied Science (BASc) in Engineering Science in June 2023. 
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## Career
+During my years in EngSci, I partook in the PEY program which allowed me to intern at Huawei Canada for 12 months. As my first professional industry experience, I was excited to finally be able to put my technical knowledge into practice. I performed research work with the Integrated Circuit (IC) Lab in Markham, Ontario, where I examined the intersection of machine learning (ML) and various facets of the IC design process. For my project, I built a ML solution for predicting parasitic capacitances (a critical electrical property that influences performance in IC designs) and enveloped it in an accessible CAD tool for IC designers without ML backgrounds. In this role, I honed my communication skills through weekly presentations to senior designers and gained an intimate understanding of the engineering design process.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+In the summer following my time at Huawei, I began a three month summer internship at Amazon in Vancouver BC. I worked with the Offer and Retail Catalog Service (ORCS) team to develop a data-driven log analysis tool that could be used to diagnose inefficiencies and abnormalities in our team's services. Using a plethora of programming languages and AWS technologies, I developed, from scratch, an automated, end-to-end data analysis and visualization pipeline. This experience propelled my software development skills to a high level and instilled in me a user-first mentality when approaching software projects. Ultimately, the project, although created during a rushed timeline, was successful in reducing theoretical time-to-resolution for a historical high-severity ticket from the scale of dev-hours to dev-minutes and was able to identify a set of clients producing inefficiencies within the system.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Following graduation, I will be entering a Software Development Engineer position at Amazon in Sunnyvale, California, where I will be returning to the ORCS team. Although the focus of the group in Sunnyvale is different from what I experienced during my summer internship in Vancouver, there will still be many familiar concepts and people. I am eager to see what awaits me in my career and look forward to the opportunities that will come my way. 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Outside of my career, I highly value my physical health and thus participate in many sports. I play badminton semi-competitively, having been provincial level when I was in high school. I also play tennis and rock climb at intermediate levels. Otherwise, you can probably find me at the gym. Aside from athletic pursuits, I'm also decent at piano and play at an ARCT level. I used to play keyboard for our high school's pit orchestra and have also played at numerous private receptions. Finally, I'm a huge foodie and enjoy exploring new places to eat, or even cooking tasty food for myself. I always appreciate new food recommendations too!
 
-**Markdown generator**
+## Personal Philosophy
+These days, I find that too many people are hyper-fixated on some far-away career goal and forget to enjoy the journey that was undertaken to reach their objectives. I place higher emphasis on the process of achieving my goals, in which I remember to savor every moment that life has to offer. As long as one is always learning and improving oneself, I don't believe that the wrong path exists. It's not what we have now that is important or unique, but rather our lived experiences that are what truly differentiate us. After all, in the long run we'll all be in the same state, no? 
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Contact Me
+Thank you for taking the time to visit my website. If you would like to get in touch with me, please feel free to shoot me an email or connect with me on LinkedIn.

@@ -8,9 +8,9 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Theodore Wu"
-title_separator          : ""
+title_separator          : "-"
 name                     : &name "Theodore Wu"
-description              : &description "personal description"
+description              : &description "Theodore Wu's personal site"
 url                      : https://wu-theodore.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "wu-theodore/wu-theodore.github.io"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/theodore-wu/"
+  linkedin         : "theodore-wu"
   orcid            : 
   pinterest        :
   soundcloud       :
@@ -175,33 +175,19 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  research:
     output: true
     permalink: /:collection/:path/
-  publications:
+  projects:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
+  passions:
     output: true
     permalink: /:collection/:path/
 
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: ""
@@ -209,41 +195,34 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _research
   - scope:
       path: ""
-      type: teaching
+      type: research
     values:
       layout: single
       author_profile: true
       share: true
-      comments: true
-  # _publications
+      comments: false
+  # _projects
   - scope:
       path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _fun
   - scope:
       path: ""
-      type: talks
+      type: passions
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
+      comment: true
+
 
 # Sass/SCSS
 sass:

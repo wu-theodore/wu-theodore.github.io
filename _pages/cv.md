@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Resume/CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,51 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+My resume and CV can both be downloaded as PDF files from this page. I'll be keeping these documents as up-to-date as possible.
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+**Resume**: 
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+[Download Here]({{site.baseurl}}{% link /files/resume.pdf %})
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**CV**: 
+
+[Download LaTex Version Here]({{site.baseurl}}{% link /files/cv_overleaf.pdf %})
+
+[Download Regular Version Here]({{site.baseurl}}{% link /files/cv_regular.pdf %})
