@@ -2,6 +2,7 @@
 layout: archive
 title: "Resume/CV"
 permalink: /cv/
+excerpt: "Ready-to-download versions of my resume and CV."
 author_profile: true
 redirect_from:
   - /resume
