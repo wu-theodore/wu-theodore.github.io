@@ -1,7 +1,7 @@
 ---
 title: "Reactor Log Analysis Tool"
 excerpt: "This was my 2022 summer intern project with my team at Amazon in Vancouver. I created an automated end-to-end log analysis and data visualization pipeline that allows developers to interact with live log records generated from the team's service."
-collection: Projects
+collection: projects
 ---
 Over my three month internship at Amazon in Vancouver, I gained valuable experience working in my first software development position through the implementation of a Reactor Log Analysis Tool as an intern project. Within my team's service, there are numerous different processing steps performed on offer data when a merchant makes an update to their listings. While the team has numerous dashboards for monitoring the performance of individual operations, there did not yet exist any method for examining the performance of the system as a whole, especially when considering the chain of operations triggered by a single merchant update. The Reactor Log Analysis Tool was thus proposed as a solution for enabling wider insights on the performance of full operation sequences. 
 

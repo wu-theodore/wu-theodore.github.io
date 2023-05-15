@@ -1,6 +1,6 @@
 ---
 title: "Computational Pathology: A Survey Review and The Way Forward"
-collection: Research
+collection: research
 permalink: /research/future-cpath
 excerpt: 'This paper provides a comprehensive literature review of the field of computational pathology to identify key challenges in the current research landscape. The work was conducted during my 2nd-year summer research experience with the MultiMedia Lab at the University of Toronto and was recently submitted for review to the "Medical Image Analysis" journal.'
 venue: 'Medical Image Analysis'

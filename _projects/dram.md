@@ -1,6 +1,6 @@
 ---
 title: "Deep Recurrent Attention Model (DRAM)"
 excerpt: "This project showcases the results of some machine learning self-study during my first year summer. I taught myself the basics of machine learning and TensorFlow and was able to reproduce the deep recurrent attention model from (Ba et al., 2015) and (Mnih et al., 2014)."
-collection: Projects
+collection: projects
 ---
 In the summer of my first year of undergrad, I knew that I wanted to pursue the Machine Intelligence option of Engineering science so I wanted a head-start on learning concepts from machine learning. This passion manifested as a self-study project in which I taught myself the basics of machine learning, reviewed research articles to gain an in-depth understanding of state-of-the-art models for image processing tasks, and learned TensorFlow to implement these concepts in practice. During my literature surveying, I was intrigued by the concept of deep recurrent attention models (DRAM) and how they seem to mimic the image identification process used by humans (i.e., classification through a series of glimpses). I wanted to implement a DRAM model to prove my understanding of machine learning. By the end of the summer, I was able to implement a working version of this network, which I now store on my GitHub [here](https://github.com/wu-theodore/DRAM).

@@ -1,7 +1,7 @@
 ---
 title: "ParaEst: A Machine Learning-based Parasitic Capacitance Estimation Tool"
 excerpt: "This was my PEY internship project with the IC Lab at Huawei Canada. I developed a machine learning method to predict and annotate parasitic capacitances from IC schematic designs. This machine learning core was packaged in a user-friendly application with various use-cases for the estimated parasitic capacitances."
-collection: Projects
+collection: projects
 ---
 The ParaEst project was an intern research project I conducted at the Integrated Circuit (IC) Lab in Huawei Canada as part of an emerging initiative to apply machine learning to the IC design process. The project initially began as a research experiment, where we showed that machine learning methods such as a Support Vector Regressor (SVR) were able to estimate parasitic capacitances between transistors given the netlist of an IC schematic design. Typically, designers need to transform their schematic designs into a layout design in order to obtain accurate values for parasitic capacitances. Then, a designer would annotate their schematics with the parasitic capacitances obtained from layout design simulations and re-annotate the schematics to verify that circuit specifications are still being met. Typically, many iterations between schematic and layout design would be required until adequate performance is reached. However, by applying machine learning prior to layout design, designers could use the estimated parasitics to gain a more accurate understanding of their circuits performance and reduce the number of design iterations. 
 
