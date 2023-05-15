@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Theo Wu"
-  avatar           : "profile.png"
+  avatar           : "website_profile.jpg"
   bio              : "Incoming Software Development Engineer @ Amazon | Engineering Science (Machine Intelligence) New Grad"
   location         : "Victoria, BC"
   employer         :
@@ -175,13 +175,13 @@ kramdown:
 
 # Collections
 collections:
-  research:
+  Research:
     output: true
     permalink: /:collection/:path/
-  projects:
+  Projects:
     output: true
     permalink: /:collection/:path/
-  passions:
+  Passions:
     output: true
     permalink: /:collection/:path/
 

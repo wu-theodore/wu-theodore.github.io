@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Projects"
-excerpt: "An overview of some interesting technical projects I've had a hand in."
+excerpt: "An overview of some interesting technical projects I've created."
 permalink: /projects/
 author_profile: true
 ---
