@@ -198,7 +198,7 @@ defaults:
   # _research
   - scope:
       path: ""
-      type: research
+      type: Research
     values:
       layout: single
       author_profile: true
@@ -207,7 +207,7 @@ defaults:
   # _projects
   - scope:
       path: ""
-      type: projects
+      type: Projects
     values:
       layout: single
       author_profile: true
@@ -216,7 +216,7 @@ defaults:
   # _fun
   - scope:
       path: ""
-      type: passions
+      type: Passions
     values:
       layout: single
       author_profile: true

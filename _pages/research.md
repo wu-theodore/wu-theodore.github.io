@@ -10,6 +10,6 @@ author_profile: true
 
 I'm interested in research related to real-world applications of machine learning. I'd love to get involved in this some more in the future! To more clearly demonstrate the type of application-focused research I'm interested in, here's a list of my past publications. 
 
-{% for post in site.research reversed %}
+{% for post in site.Research reversed %}
   {% include archive-single.html %}
 {% endfor %}
